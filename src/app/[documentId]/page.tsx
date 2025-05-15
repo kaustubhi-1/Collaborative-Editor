@@ -6,7 +6,7 @@ import { Toolbar } from "./toolbar"
 interface DocumentIdPageProps {
     params: Promise<{documentId:string}>
 }
-const DocumentIdPage = async({params}:DocumentIdPageProps) => {
+const DocumentIdPage = async({}:DocumentIdPageProps) => {
     // const {documentId} = await params
     // const {documentId} = awaitedParams.documentId
     return (
